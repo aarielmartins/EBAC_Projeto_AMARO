@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    padding: 1em 0;
+    align-items: center;
+}
+
+header img{
+    height: 1.2em;
+}
+
+.pesquisa img{
+    width: 1.2em;
+    margin: 0 1em;
+}
+
+header input{
+    border: none;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    width: 20em;
+}
+
+header input:focus{
+    outline: none;
+}
+
+.pesquisa{
+    background-color: #f1efe8;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: .5em 0;
+}
+
+.row img{
+    width: 100%;
+}
+
+.container{
+    padding: 1.5em;
+}
+
+.card{
+    border: none;
+}
+
+h5, h6{
+    text-align: center;
+    font-weight: lighter;
+}
+
+h5{
+    margin-top: 1em;
+}
+
+.btn-dark{
+    width: 100%;
+}
+
+.col-lg-4{
+    margin-bottom: 2em;
+}
